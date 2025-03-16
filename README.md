@@ -160,10 +160,6 @@ curl http://localhost:9898/actuator/health
   "status": "UP"
 }
 ```
-
-## 📧 Contacto
-Para dudas o mejoras, por favor envía un correo a: **rzegarra@hacom.com.pe**.
-
 ---
 
 🚀 **Trace API - Implementación backend para manejo de trazas en MongoDB con Spring WebFlux** 🔥
