@@ -83,8 +83,8 @@ Se exponen métricas en formato Prometheus, incluyendo un contador **hacom.test.
 
 1. Clonar el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd <NOMBRE_DEL_PROYECTO>
+   git clone https://github.com/limpjor/trace-api.git
+   cd trace-api
    ```
 
 2. Construir el proyecto con Gradle:
@@ -94,7 +94,7 @@ Se exponen métricas en formato Prometheus, incluyendo un contador **hacom.test.
 
 3. Ejecutar la aplicación:
    ```bash
-   java -jar build/libs/<nombre-del-jar>.jar
+   java -jar build/libs/trace-api.jar
    ```
 
 ## Repositorio
