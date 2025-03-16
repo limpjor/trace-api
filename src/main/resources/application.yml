@@ -1,0 +1,25 @@
+app:
+  mongodbDatabase: exampleDb
+  mongodbUri: "mongodb://127.0.0.1:27017"
+  apiPort: 9898
+
+server:
+  port: ${app.apiPort}
+
+spring:
+  application:
+    name: trace-api
+  data:
+    mongodb:
+      uri: ${app.mongodbUri}
+      database: ${app.mongodbDatabase}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "prometheus"
+  metrics:
+    export:
+      prometheus:
+        enabled: true

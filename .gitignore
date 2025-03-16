@@ -1,0 +1,45 @@
+# Directorios de Gradle y compilación
+/.gradle
+/build/
+/out/
+
+# Configuración de IDEs
+/.idea/
+/*.iml
+/.vscode/
+/*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias descargadas
+/gradle/
+/gradlew
+/gradlew.bat
+/gradle-wrapper.jar
+
+# Archivos generados por Spring Boot
+/*.jar
+/*.war
+/*.ear
+
+# Variables de entorno y configuraciones sensibles
+.env
+/.env.local
+/.envrc
+/.bashrc
+/.zshrc
+/.bash_profile
+/.zsh_profile
+
+# Logs y datos temporales
+/logs/
+/*.log
+/test-results/
+/tmp/
+/target/
+
+# Archivos de cobertura de código
+/coverage/
+/jacoco/
